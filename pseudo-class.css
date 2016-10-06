@@ -1,0 +1,21 @@
+li {
+	list-style-type: none;
+	display: inline;
+}
+.inline {
+	display: block;
+	border: 1px solid black;
+	margin: 25px;
+}
+
+.n-child > section:nth-child(2n-1) {
+	border: 1px solid black;
+}
+
+/*.n-child > section:nth-of-type(even) {
+	border: 1px solid black;
+}*/
+
+/*.n-child > section ~:nth-child(odd) {
+	border: 1px solid black;
+}*/
